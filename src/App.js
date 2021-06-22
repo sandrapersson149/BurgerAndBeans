@@ -10,15 +10,24 @@ import Menu from './Components/Menu/Menu';
 import Contact from './Components/Contact/Contact';
 import Navbar from "./Components/Navbar/Navbar";
 
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+ body {
+   background-color: #332E27;
+ }
+ `
+
 function App() {
   return (
     <>
       <Router>
+        < GlobalStyle />
         <Navbar />
         <Switch>
-          <Route path='/home' component={Home}></Route>
           <Route path='/Menu' component={Menu}></Route>
           <Route path='/contact' component={Contact}></Route>
+          <Route path='/' component={Home}></Route>
         </Switch>
       </Router>
     </>

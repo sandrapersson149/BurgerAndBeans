@@ -11,7 +11,7 @@ function Navbar() {
     <StyledNav>
       <ul>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/home">Home</Link>
         </li>
         <li>
           <Link to="/menu">Menu</Link>
@@ -20,6 +20,7 @@ function Navbar() {
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      <h1>Burgers n' beans</h1>
     </StyledNav>
   );
 }

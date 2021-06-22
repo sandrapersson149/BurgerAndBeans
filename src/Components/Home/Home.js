@@ -1,7 +1,11 @@
 import React from "react";
+import { HomeStyled } from "./HomeStyled";
+
 function Home() {
   return (
-    <p>Hello</p>
+    <HomeStyled>
+      <button>Check out the menu</button>
+    </HomeStyled>
   );
 };
 

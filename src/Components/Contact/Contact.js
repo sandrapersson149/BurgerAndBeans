@@ -27,7 +27,7 @@ class Contact extends React.Component {
           <p>34 Barrow St, New York, NY 10014, USA</p>
           <MapStyled>
             <MapWithAMarker
-              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3WtXbVccIunX_6gATALrJ4ze_j7LVwVU&v=3.exp&libraries=geometry,drawing,places"
+              googleMapURL=""
               loadingElement={<div style={{ height: `100%` }} />}
               containerElement={<div style={{ height: `400px`, width: `700px` }} />}
               mapElement={<div style={{ height: `100%` }} />} />

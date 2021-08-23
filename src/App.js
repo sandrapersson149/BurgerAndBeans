@@ -11,6 +11,7 @@ import Contact from './Components/Contact/Contact';
 import Navbar from "./Components/Navbar/Navbar";
 
 import { createGlobalStyle } from 'styled-components';
+import Test from "./Components/Test";
 
 const GlobalStyle = createGlobalStyle`
  body {
@@ -27,6 +28,7 @@ function App() {
         <Switch>
           <Route path='/Menu' component={Menu}></Route>
           <Route path='/contact' component={Contact}></Route>
+          {/* <Route path='/test' component={Test}></Route> */}
           <Route path='/' component={Home}></Route>
         </Switch>
       </Router>

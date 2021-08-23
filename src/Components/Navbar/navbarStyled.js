@@ -21,15 +21,6 @@ a:hover {
   opacity: 0.6;
   text-decoration: underline;
 }
-h1{
-  color: #F9E0AE;
-  position: absolute;
-  font-size: 100px;
-  font-weight: 800;
-  width: 30%;
-  line-height: 75px;
-  top: 70px;
-  left: 80px;
-  text-align: center;
-  text-shadow: 2px 3px 4px rgba(99, 92, 82, 0.50);
-}`
+
+`
+

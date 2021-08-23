@@ -4,7 +4,7 @@ import {
   Link
 } from "react-router-dom";
 
-import { StyledNav } from "./navbarStyled";
+import { StyledNav, HeaderContainer } from "./navbarStyled";
 
 function Navbar() {
   return (
@@ -19,9 +19,13 @@ function Navbar() {
         <li>
           <Link to="/contact">Contact</Link>
         </li>
+        {/* <li>
+          <Link to="/test">Test</Link>
+        </li> */}
       </ul>
-      <h1>Burgers n' beans</h1>
-    </StyledNav>
+
+
+    </StyledNav >
   );
 }
 

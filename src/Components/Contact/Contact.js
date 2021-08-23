@@ -4,8 +4,10 @@ import {
   withGoogleMap,
   GoogleMap,
   Marker,
+  InfoWindow
 } from "react-google-maps";
 import { ContactStyled, MapStyled, ContactContainer } from "./ContactStyled";
+
 
 class Contact extends React.Component {
   render() {
@@ -27,10 +29,11 @@ class Contact extends React.Component {
           <p>34 Barrow St, New York, NY 10014, USA</p>
           <MapStyled>
             <MapWithAMarker
-              googleMapURL=""
+              googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGS5hwl1N9dpx_BZaODV9PbxHpKzFRtGY&v=3.exp&libraries=geometry,drawing,places"
               loadingElement={<div style={{ height: `100%` }} />}
               containerElement={<div style={{ height: `400px`, width: `700px` }} />}
-              mapElement={<div style={{ height: `100%` }} />} />
+              mapElement={<div style={{ height: `100%` }} />}
+            />
           </MapStyled>
         </ContactStyled>
       </ContactContainer>
